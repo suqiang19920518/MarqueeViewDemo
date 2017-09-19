@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.tyu.marqueeView.view.ADTextView
+        android:id="@+id/ad_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />
+
+    <com.tyu.marqueeView.view.FocusedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="类似图片轮播的功能，一般使用的时候都是使用自动的广告提示，或者通知提醒，比如淘宝app中的“淘宝头条”" />
+
+    <com.tyu.marqueeView.view.VerticalScrolledListview
+        android:id="@+id/v_scroll_listview"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="142dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/linearlayout_shape">
+
+        <com.tyu.marqueeView.view.MarqueeView
+            android:id="@+id/recycle_textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp" />
+    </LinearLayout>
+
+    <com.tyu.marqueeView.view.AutoTextView
+        android:id="@+id/scroll_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/linearlayout_shape"
+        android:padding="8dp" />
+
+</LinearLayout>

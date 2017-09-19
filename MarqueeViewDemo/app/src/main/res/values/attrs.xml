@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="ADTextView">
+        <attr name="ad_text_view_speed" format="integer"/>
+        <attr name="ad_text_view_interval" format="integer"/>
+        <attr name="ad_text_front_color" format="color"/>
+        <attr name="ad_text_content_color" format="color"/>
+        <attr name="ad_text_front_size" format="integer"/>
+        <attr name="ad_text_content_size" format="integer"/>
+        <attr name="ad_text_content_padding" format="integer"/>
+        <attr name="ad_text_padding_left" format="integer"/>
+    </declare-styleable>
+
+    <!-- 自定义上下滚动textview -->
+    <declare-styleable name="auto3d">
+        <attr name="textSize_auto" format="dimension" />
+    </declare-styleable>
+</resources>
